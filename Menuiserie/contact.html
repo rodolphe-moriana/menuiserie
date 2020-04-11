@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Monbeaumeuble</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="menuiserie.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <section class="container" id="header-forme-contact">
+                <div id="image-header">
+                    <a href="accueil.html"><img src="media/logo.png" alt="Logo Entreprise Parede"></a>
+                </div>
+
+                <nav>
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="presentation.html">Présentation</a></li>
+                    <li><a href="entreprise.html">Entreprise</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                </nav>
+
+                <input id="recherche-header" type="search" placeholder="Recherchez ici">
+            </section>
+        </header>
+
+            <main id="main-contact">
+                <h1>Vous pouvez nous contacter ici !</h1>
+                <form action="liste.html" method="POST" id="first">
+                    <div class="centre">
+                        <label for="nom"><span class="red">*&nbsp;</span>Votre nom/entreprise :</label>
+                    </div>
+                    <div class="centre">
+                        <input type="text" id="nom" placeholder="Renseignez votre identité" required>
+                    </div>
+                    <div class="centre">
+                        <label for="objet"><span class="red">*&nbsp;</span>Objet :</label>
+                    </div>
+                    <div class="centre">
+                        <input type="text" id="objet" placeholder="Renseignez le motif de votre mail" required>
+                    </div>
+                    <div class="centre">
+                        <label for="lien"><span class="red">*&nbsp;</span>Lien :</label>
+                    </div>
+                    <div class="centre">
+                        <input type="url" id="lien" placeholder="Lien vers votre site entreprise/personnel" required>
+                    </div>
+                    <div class="centre">
+                        <label for="desc"><span class="red">*&nbsp;</span>Description :</label>
+                    </div>
+                    <div class="centre">
+                        <textarea id="desc" rows="4" cols="50" placeholder="Description du produit affiché" required></textarea>
+                    </div>
+                    <div class="centre">
+                        <input type="submit" value="Ajouter l'objet" id="button2">
+                    </div>
+                </form>
+            </main>
+
+            <footer>
+                <section class="container" id="footer-forme">
+                    <div id="image-footer-1">
+                        <a href="https://github.com/rodolphe-moriana/menuiserie" target="_blank"><img src="media/logo-git.png" alt="Logo GitHub"></a>
+                    </div>
+    
+                    <nav>
+                    <ul>
+                        <li><a href="accueil.html">Accueil</li></a>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="entreprise.html">Entreprise</a></li>
+                        <li><a href="realisations.html">Réalisations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    </nav>
+    
+                    <div id="image-footer-2">
+                        <a href="accueil.html"><img src="media/logo.png" alt="Logo Entreprise Parede"></a>.
+                    </div>
+                </section>
+            </footer>
+
+    </body>
+</html>
